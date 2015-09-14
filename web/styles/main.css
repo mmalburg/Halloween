@@ -1,0 +1,91 @@
+html {
+    font-family: Arial;
+    background-image: url('../images/bats.gif');
+    background-repeat: repeat; 
+}
+
+body {
+   width: 800px;
+   height: 760px;
+   background-color: white;
+   margin: 0 auto 0 auto; 
+   box-shadow: 0 0 50px black;
+}
+
+article {
+    width: 600px;
+}
+
+article#para{
+    float: right;
+}
+
+article#para1{
+    float: right;
+}
+
+article#image {
+    float: right;
+}
+article#link {
+    float: right;
+}
+
+nav#sidebar {
+    float: left;
+    width: 160px;
+    background-color: white;
+}
+
+header {
+    border: solid black;
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange 75%, black); 
+}
+
+h2#store {
+    padding-left: 3.5em;
+    margin-bottom: 0em;
+    font-size: 250%;
+}
+
+h3#goblin {
+    padding-left: 8em;
+    margin-top: 0em;
+}
+
+h2#welcome::first-letter {
+    font-size: 200%;
+}
+
+img {
+    padding-top: 2em;
+    padding-left: 1em;
+    float: left;
+}
+
+li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    color: orange;
+    background-color: transparent;
+}
+
+a:hover {
+    color: green;
+}
+
+
+footer {
+    float: right;
+    width: 797px;
+    font-size: 60%;
+    text-align: center;
+    border: solid black;
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange 75%, white);
+    box-shadow: 0 0 100px black;
+}
+
